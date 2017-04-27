@@ -1,7 +1,7 @@
 html,body{
 	background-color: #f6f6f6;
 }
-.header{
+.header-1{
 	box-shadow: 3px 3px 3px 0 rgba(0,0,0,.1)
 }
 .dynamicbox{
@@ -158,14 +158,14 @@ html,body{
 	color:#999;
 	font-size:12px;
 }
-.footer-top{
+.foote-top{
 	width: 100%;
 	padding-bottom:70px;
 	background: url(../img/footer2_bg.gif) repeat-x #fff top;
 }
-.footer-top-con{
+.foote-top-con{
 	width: 1100px;
-    height: 200px;
+    height: 300px;
     margin: 0 auto;
     background: url(../img/footer2_bg.gif) repeat-x top;
     padding: 100px 0 0 0;

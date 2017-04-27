@@ -2,7 +2,7 @@
 	width: 1100px;
 	margin:0 auto;
 }
-.header{
+.header-1{
 	background: url(../img/header_bg.gif) repeat-x;
 }
 .header-body{
@@ -198,13 +198,28 @@
 
 /*banner区*/
 .banner-all{
-	position:relative; 
-}
-.banner>a{
-	display: block;
-	max-width: 1920px;
+	width: 1920px;
 	height: 525px;
-	background:url(../img/201608181025251793.jpg) 0 0 no-repeat;
+	position:relative;
+	overflow: hidden; 
+}
+.banner{
+	height: 525px;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.banner a{
+	display: block;
+	width: 1920px;
+	height: 525px;
+	float:left;
+	
+}
+.banner img{
+	float:left;
+	width: 1920px;
+	height: 525px;
 }
 .ban-dot{
 	position:absolute;
@@ -218,10 +233,7 @@
 	background: url(../img/bullet.png) 0 0 no-repeat;
 	margin-left:10px;
 }
-.ban-dot>a:hover{
-	background: url(../img/bullet.png) 0 -12px no-repeat;
-}
-.ban-dot>a:first-child{
+.ban-dot>a.active{
 	background: url(../img/bullet.png) 0 -12px no-repeat;
 }
 .banner-all>a{
@@ -252,10 +264,11 @@
 	display: block;
 }
 /*图片区*/
-.container{
+.contain{
 	background-color: #f6f6f6;
+	width:1920px;
 }
-.container h2{
+.contain h2{
 	color:#999;
 	font-size: 30px;
 	padding-top: 70px;
@@ -539,35 +552,35 @@
 	margin:20px 0 0 17px;
 }
 /*脚部区*/
-.footer-top{
+.foote-top{
 	width: 100%;
 	padding-bottom:70px;
 	background: url(../img/footer_bg.gif) repeat-x #f6f6f6 top;
 }
-.footer-top-con{
+.foote-top-con{
 	width: 1100px;
-    height: 200px;
+    height: 300px;
     margin: 0 auto;
     background: url(../img/footer_bg.gif) repeat-x top;
     padding: 100px 0 0 0;
 }
-.footer-top-con div{
+.foote-top-con div{
 	float:left;
 }
-.footer-top-con li{
+.foote-top-con li{
 	line-height: 20px;
 	font-size: 14px;
 	
 }
-.footer-top-con li a{
+.foote-top-con li a{
 	color:#4a4a4a;
 	font-family: "Microsoft Yahei",微软雅黑!important;
 }
-.footer-top-con p{
+.foote-top-con p{
 	font-size: 20px;
 	color:#06c7d3;
 }
-.footer-top-con ul{
+.foote-top-con ul{
 	margin-top:15px;
 }
 .more-wonder{
@@ -618,25 +631,25 @@
 	margin-top:13px;
 }
 
-.footer-bot{
+.foote-bot{
 	width: 100%;
 	height: 366px;
 	background-color: #07c7d3;
 }
-.footer-bot-bd p:nth-of-type(1){
+.foote-bot-bd p:nth-of-type(1){
 	line-height: 135px;
 	font-size: 27px;
 	color:#fff;
 	text-align: center;
 }
-.footer-bot-nav{
+.foote-bot-nav{
 	text-align: center;
 }
-.footer-bot-nav a{
+.foote-bot-nav a{
 	margin-right: 9px;
 	color:#fff;
 }
-.footer-bot-bd p:nth-of-type(2){
+.foote-bot-bd p:nth-of-type(2){
 	text-align: center;
 	color:#fff;
 	margin-top: 15px;
